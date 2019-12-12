@@ -12,7 +12,7 @@ import com.example.lib.MyJoke;
 
 
 public class MainActivity extends AppCompatActivity {
-    MyJoke myJoke;
+    // MyJoke myJoke;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void tellJoke(View view) {
 
-        myJoke = new MyJoke();
-        String thisJoke = myJoke.getJoke();
-        Toast.makeText(this, thisJoke + " ", Toast.LENGTH_SHORT).show();
+        //myJoke = new MyJoke();
+        //String thisJoke = myJoke.getJoke();
+        // Toast.makeText(this, thisJoke + " ", Toast.LENGTH_SHORT).show();
     }
 
 
